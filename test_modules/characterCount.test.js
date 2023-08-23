@@ -1,5 +1,4 @@
 import characterCount from '../characterCount';
-import reverseString from "../reverseString";
 
 test('characterCount(\'Microverse\') returns 10', () => {
   expect(characterCount('Microverse'))
@@ -21,6 +20,3 @@ test('characterCount(\'this string is longer than 10\') throw an error for strin
   .toThrow('String length should be between 1 and 10 characters!');
 })
 
-test('reverseString(\'hello world\') returns \'dlrow olleh\'', () => {
-  expect(reverseString('hello world')).toBe('dlrow olleh');
-});
