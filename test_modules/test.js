@@ -16,7 +16,7 @@ test('characterCount(\'\') throw an error for empty string', () => {
   .toThrow('String length should be between 1 and 10 characters!');
 })
 
-test('characterCount(\'his string is longer than 10\') throw an error for string >10', () => {
+test('characterCount(\'this string is longer than 10\') throw an error for string >10', () => {
   expect(() => characterCount('This string is longer than 10'))
   .toThrow('String length should be between 1 and 10 characters!');
 })
