@@ -10,7 +10,7 @@ The `stringLength` function takes a string as an argument and returns the count 
 
 ### Testing
 
-To test the `stringLength` function, I've written tests to verify its behavior:
+To test the `stringLength` function, We've written tests to verify its behavior:
 
 1. Ensure the function correctly counts characters in a string.
 2. Extend the function to handle conditions where the string length must be between 1 and 10 characters, throwing errors if conditions are not met.
@@ -24,7 +24,7 @@ The `reverseString` function takes a string as an argument and returns the rever
 
 ### Testing
 
-I've written tests for the `reverseString` function:
+We've written tests for the `reverseString` function:
 
 1. Ensure the function correctly reverses a string.
 
@@ -32,18 +32,18 @@ I've written tests for the `reverseString` function:
 
 ### Class Description
 
-I've implemented a simple `Calculator` class with four methods: `add`, `subtract`, `divide`, and `multiply`.
+We've implemented a simple `Calculator` class with four methods: `add`, `subtract`, `divide`, and `multiply`.
 
 ### Testing
 
-I've written comprehensive tests for each calculator method:
+We've written comprehensive tests for each calculator method:
 
 1. `add` method: Tests for addition functionality.
 2. `subtract` method: Tests for subtraction functionality.
 3. `divide` method: Tests for division functionality and handling division by zero.
 4. `multiply` method: Tests for multiplication functionality.
 
-I've organized tests for each method using the `describe` method for better readability.
+We've organized tests for each method using the `describe` method for better readability.
 
 ## Task 4: Capitalize Function with TDD
 
