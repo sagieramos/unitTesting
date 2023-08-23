@@ -10,7 +10,7 @@ The `stringLength` function takes a string as an argument and returns the count 
 
 ### Testing
 
-To test the `stringLength` function, we've written tests to verify its behavior:
+To test the `stringLength` function, I've written tests to verify its behavior:
 
 1. Ensure the function correctly counts characters in a string.
 2. Extend the function to handle conditions where the string length must be between 1 and 10 characters, throwing errors if conditions are not met.
@@ -24,7 +24,7 @@ The `reverseString` function takes a string as an argument and returns the rever
 
 ### Testing
 
-We've written tests for the `reverseString` function:
+I've written tests for the `reverseString` function:
 
 1. Ensure the function correctly reverses a string.
 
@@ -32,7 +32,7 @@ We've written tests for the `reverseString` function:
 
 ### Class Description
 
-We've implemented a simple `Calculator` class with four methods: `add`, `subtract`, `divide`, and `multiply`.
+I've implemented a simple `Calculator` class with four methods: `add`, `subtract`, `divide`, and `multiply`.
 
 ### Testing
 
@@ -43,7 +43,7 @@ I've written comprehensive tests for each calculator method:
 3. `divide` method: Tests for division functionality and handling division by zero.
 4. `multiply` method: Tests for multiplication functionality.
 
-We've organized tests for each method using the `describe` method for better readability.
+I've organized tests for each method using the `describe` method for better readability.
 
 ## Task 4: Capitalize Function with TDD
 
@@ -65,5 +65,13 @@ Follow these steps to get started with the repository:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/js-function-testing.git
-   cd js-function-testing
+   git clone https://github.com/sagieramos/unitTesting.git
+   cd unitTesting
+   npm install
+   npm test test_modules/<test_file>
+   ```
+   Please replace <test_file> with any file in test `unitTesting/test_module` directory
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
