@@ -1,4 +1,4 @@
-const checkCharactersCount = (string) => {
+const stringLength = (string) => {
   const num = string.replace(/\s+/g, '').length
 
   if (num >= 1 && num <= 10) {
@@ -9,4 +9,4 @@ const checkCharactersCount = (string) => {
   }
 }
 
-export default checkCharactersCount;
+export default stringLength;
